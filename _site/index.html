@@ -48,7 +48,7 @@
 					<br>
 					<p>Tianxiang Gao</p>
 					<p>
-						<small>April 17, 2015</a></small>
+						<small>August 20, 2015</a></small>
 					</p>
 				</section>
 
@@ -59,7 +59,7 @@
 						<li>Introduction</li>
 						<li>Methodology</li>
 						<li>Experimental results</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 
@@ -102,7 +102,7 @@
 						<li class="fragment highlight-blue">Introduction</li>
 						<li>Methodology</li>
 						<li>Experimental results</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 
@@ -119,7 +119,7 @@
 						</li>
 						<li>Methodology</li>
 						<li>Experimental results</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 
@@ -203,7 +203,7 @@
 						</li>
 						<li>Methodology</li>
 						<li>Experimental results</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 
@@ -259,7 +259,7 @@
 				<section>
 					<h2>Accuracy</h2>
 					<p>$ ACC = \frac{TP+TN}{TP + TN + FN + FP}$</p>
-					<p class="fragment">May not very useful if imbalanced datasets.</p>
+					<p>May not very useful if imbalanced datasets.</p>
 				</section>
 
 				<section>
@@ -278,7 +278,7 @@
 				<section>
 					<h2>ROC &amp; AUC</h2>
 					<img data-src="http://upload.wikimedia.org/wikipedia/commons/6/6b/Roccurves.png" style="height:400px;">
-					<p class="fragment"><strong>Area Under the ROC curve (AUC)</strong> is to quantify the overal performance of a classifier.</p>
+					<p><strong>Area Under the ROC curve (AUC)</strong> is to quantify the overal performance of a classifier.</p>
 				</section>
 
 				<section>
@@ -329,7 +329,7 @@
 						</li>
 						<li>Methodology</li>
 						<li>Experimental results</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 
@@ -346,7 +346,7 @@
 						<li>Introduction</li>
 						<li class="fragment highlight-blue">Methodology</li>
 						<li>Experimental results</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 
@@ -364,7 +364,7 @@
 
 						</li>
 						<li>Experimental results</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 
@@ -405,15 +405,6 @@
 
 					</section>
 
-					<section>
-						<h2>SMOTE</h2>
-						<h4>tuning parameter</h4>
-						<ul>
-							<li>number of nearest neighbors</li>
-							<li>percentage of oversampling minority class</li>
-							<li class="fragment highlight-current-blue">percentage of undersampling majority class</li>
-						</ul>					
-					</section>
 				</section>
 
 				<section>
@@ -430,7 +421,7 @@
 
 						</li>
 						<li>Experimental results</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 
@@ -441,27 +432,11 @@
 				</section>
 
 				<section>
-					<h2> Wrapper and Filter</h2>
-					<p class="fragment highlight-current-blue"><strong>Wrapper</strong> selects a subset of instances based on accuracy of a predefined classifier. 
-					</p>
-					<p class="fragment highlight-current-blue"><strong>Filter</strong> ranks instances through non-classifier based function and then selects the instances from the ranking.</p>
-				</section>
-
-				<section>
 					<h2> Greedy Selection</h2>
-					<p><span class="fragment highlight-current-blue">Greedy selection is a two-steps wrapper method:</span> <span class="fragment highlight-current-blue">generates a number of candidate subsets,</span> <span class="fragment highlight-current-blue"> and starts with one candidate subset</span> <span class="fragment highlight-current-blue">and continuouly combines the other subsets</span> <span class="fragment highlight-current-blue">if combining improves the performance of classifier.</span>
+					<p>Greedy selection is a two-steps wrapper method:<span class="fragment highlight-current-blue">generates a number of candidate subsets,</span> <span class="fragment highlight-current-blue"> and starts with one candidate subset</span> <span class="fragment highlight-current-blue">and continuouly combines the other subsets</span> <span class="fragment highlight-current-blue">if combining improves the performance of classifier.</span>
 					</p>
 					<br>
 					<p style="text-align:right;"> - W. Bennette and S. Olafsson 2013.</p>
-				</section>
-
-				<section>
-					<h2>Greedy Selection</h2>
-					<h4>tuning parameter</h4>
-					<ul>
-						<li>number of candidate subsets</li>
-						<li>size of each subset</li>
-					</ul>						
 				</section>
 
 				<section>
@@ -478,7 +453,7 @@
 
 						</li>
 						<li>Experimental results</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 
@@ -497,21 +472,6 @@
 				</section>
 
 				<section>
-					<section>
-						<h2>Analysis of Hybrid Method</h2>
-						<img width="400" data-src="img/23dataset.png" style="float:left;">
-						<img width="400" data-src="img/23minority.png" style="float:right;">
-					</section>
-
-					<section>
-						<h2>Analysis of Hybrid Method</h2>
-						<img width="310" data-src="img/23smote_area_9.png" style="float:left;">
-						<img width="310" data-src="img/23smote_under_area_9.png">
-						<img width="310" data-src="img/23hybrid_area_9.png" style="float:right;">
-					</section>
-				</section>
-
-				<section>
 					<h2>Contents</h2>
 					<ul>
 						<li>Motivation</li>
@@ -520,13 +480,10 @@
 						<li><span style="color:#1b91ff;">Experimental results</span>
 							<ul>
 								<li class="fragment highlight-blue">Characteristics of Datasets</li>
-								<li>SMOTEd Training Datasets</li>
-								<li>Greedy-Selected Training Datasets</li>
-								<li>Hybrid-Selected Training Datasets</li>
 								<li>Results</li>
 							</ul>
 						</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 
@@ -539,165 +496,8 @@
 					<p style="text-align:right; font-size: 20px"> - Nathalie Japkowicz 2004.</p>
 					<p style="text-align:right; font-size: 20px"> - Haibo He 2009.</p>
 				</section>
-
-				<section>
-				<h2>Contents</h2>
-					<ul>
-						<li>Motivation</li>
-						<li>Introduction</li>
-						<li>Methodology</li>
-						<li><span style="color:#1b91ff;">Experimental results</span>
-							<ul>
-								<li>Characteristics of Datasets</li>
-								<li class="fragment highlight-blue">SMOTEd Training Datasets</li>
-								<li>Greedy-Selected Training Datasets</li>
-								<li>Hybrid-Selected Training Datasets</li>
-							</ul>
-						</li>
-						<li>Conclusion and future research</li>
-					</ul>
-				</section>
-				
-				<section>
-					<h2>SMOTE Training Datasets</h2>
-					<h4>tuning parameters</h4>
-						<ul>
-							<li>number of nearest neighbors</li>
-							<li>percentage of oversampling</li>
-							<li>percentage of undersampling</li>
-						</ul>
-				</section>
-
-				<section>
-					<h2>Number of nearest neighbors</h2>
-					<p>Default value is 5.</p>
-				</section>
-
-				<section>
-					<h2>percentage of undersampling</h2>
-					<p class="fragment highlight-current-blue">The percentage of undersampling is not percentage of undersampling the entire majority class.</p>
-					<p class="fragment highlight-current-blue">Instead, it is to maintain percentage of majority class with respective to SMOTEd minority class. In another word, it <strong>depends</strong> on percentage of oversampling minority class.</p>
-					<p class="fragment highlight-current-blue">Arbitrarily sets it to <strong>200%</strong>.</p>
-					<p class="fragment highlight-current-blue"><strong>Note:</strong>if undersampling majority instances is more than its original instances, majority class would oversample with replacement.</p>
-				</section>
-
-				<section>
-					<h2>percentage of oversampling</h2>
-					<p class="fragment highlight-current-blue">We implemented <em>10-fold cross validation</em> to select the ideal percentage of oversampling among 100% to 1000%.</p>
-					<p class="fragment highlight-current-blue">We used both <strong>ACC</strong> and <strong>AUC</strong> as assessment metrics to evaluate performances.</p>
-				</section>
-
-				<!--<section>
-					<h2>percentage of oversampling</h2>
-					<img data-src="img/10thROC.png">
-				</section>-->
-
-				<section>
-					<section>
-						<h2>percentage of oversampling</h2>
-						<img width="400" data-src="img/Acc.png" style="float:left;">
-						<img width="400" data-src="img/AUC.png" style="float:right;">
-					</section>
-
-					<section>
-						<h2>percentage of oversampling</h2>
-						<img width="400" data-src="img/AccBestHybrid.png" style="float:left;">
-						<img width="400" data-src="img/AUCbestHybridMedical.png" style="float:right;">
-					</section>
-				</section>
-
-				<section>
-					<h2>percentage of oversampling</h2>
-					<img data-src="img/acc_auc.png">
-					<p >From the previous figures and this table, <strong>200%</strong> has been selected for <em>yearst5</em> dataset since it has highest AUC, competitive accuracy, more stable, and simpler.</p>
-				</section>
-
-				<section>
-					<h2>percentage of oversampling</h2>
-					<p>Based on the strategy, the selected percentages for all dataset are listed in the table.</p>
-					<img data-src="img/best_smote.png">
-				</section>
-
-				<section>
-				<h2>Contents</h2>
-					<ul>
-						<li>Motivation</li>
-						<li>Introduction</li>
-						<li>Methodology</li>
-						<li><span style="color:#1b91ff;">Experimental results</span>
-							<ul>
-								<li>Characteristics of Datasets</li>
-								<li>SMOTEd Training Datasets</li>
-								<li class="fragment highlight-blue">Greedy-Selected Training Datasets</li>
-								<li>Hybrid-Selected Training Datasets</li>
-								<li>Results</li>
-							</ul>
-						</li>
-						<li>Conclusion and future research</li>
-					</ul>
-				</section>
-				
-				<section>
-					<h2>Greedy Selection</h2>
-					<h4 >tuning parameters</h4>
-						<ul>
-							<li>number of candidate subset</li>
-							<li>size of each candiate subset</li>
-						</ul>
-				</section>
-
-				<section>
-					<h2>tuning parameters</h2>
-					<p class="fragment highlight-current-red">Usually over <strong>90</strong> percent of time comsumption is to find approporate tuning parameters. It's not very efficient.</p>
-					<p><span class="fragment highlight-current-blue">Instead, we simply divided a dataset into <strong>100</strong> parts.</span> <span class="fragment highlight-current-blue">Then, in each part, the size of subset has been fixed automatically.</span></p>
-					<p class="fragment highlight-current-blue">The key is to choose an appropriate <strong>assessment metric</strong>.</p>
-				</section>
-
-				
-				<section>
-					<h2>Contents</h2>
-					<ul>
-						<li>Motivation</li>
-						<li>Introduction</li>
-						<li>Methodology</li>
-						<li><span style="color:#1b91ff;">Experimental results</span>
-							<ul>
-								<li>Characteristics of Datasets</li>
-								<li>SMOTEd Training Datasets</li>
-								<li>Greedy-Selected Training Datasets</li>
-								<li class="fragment highlight-blue">Hybrid-Selected Training Datasets</li>
-							</ul>
-						</li>
-						<li>Conclusion and future research</li>
-					</ul>
-				</section>
 					
 				<section>
-					<h2>Hybrid-Selected Training Datasets</h2>
-					<h4 >tuning parameters</h4>
-						<ul >
-							<li>number of nearest neighbors</li>
-							<li>percentage of oversampling</li>
-							<li>percentage of undersampling</li>
-							<li>number of candidate subsets</li>
-							<li>size of each candidate subset</li>
-						</ul>
-				</section>
-					
-				<section>
-					<h2>tuning parameters</h2>
-					<p class="fragment highlight-current-blue">Usually assigns <strong>5</strong> to number of nearest neighbors.</p>
-					<p class="fragment highlight-current-blue">Also use <strong>10-fold cross validation</strong> to choose a good sampling percentages.</p>
-					<p class="fragment highlight-current-blue">Separate dataset into <strong>100</strong> parts and the size of each candidate subsets has been fixed.</p>
-				</section>
-
-				<section>
-					<h2>tunning parameters</h2>
-					<p>Based on the strategy, the selected percentages for each dataset are listed in the table.</p>
-					<img data-src="img/best_hybrid.png">
-				</section>
-
-				<section>
 				<h2>Contents</h2>
 					<ul>
 						<li>Motivation</li>
@@ -706,13 +506,10 @@
 						<li><span style="color:#1b91ff;">Experimental results</span>
 							<ul>
 								<li>Characteristics of Datasets</li>
-								<li>SMOTEd Training Datasets</li>
-								<li>Greedy-Selected Training Datasets</li>
-								<li>Hybrid-Selected Trianing Datasets</li>
 								<li class="fragment highlight-blue">Results</li>
 							</ul>
 						</li>
-						<li>Conclusion and future research</li>
+						<li>Conclusion</li>
 					</ul>
 				</section>
 						
@@ -753,13 +550,28 @@
 				</section>
 
 				<section>
+					<section>
+						<h2>Analysis of Hybrid Method</h2>
+						<img width="400" data-src="img/23dataset.png" style="float:left;">
+						<img width="400" data-src="img/23minority.png" style="float:right;">
+					</section>
+
+					<section>
+						<h2>Analysis of Hybrid Method</h2>
+						<img width="310" data-src="img/23smote_area_9.png" style="float:left;">
+						<img width="310" data-src="img/23smote_under_area_9.png">
+						<img width="310" data-src="img/23hybrid_area_9.png" style="float:right;">
+					</section>
+				</section>
+
+				<section>
 					<h2>Contents</h2>
 						<ul>
 							<li>Motivation</li>
 							<li>Introduction</li>
 							<li>Methodology</li>
 							<li>Experimental results</li>
-							<li style="color:#1b91ff;">Conclusion and future research</li>
+							<li style="color:#1b91ff;">Conclusion</li>
 						</ul>
 				</section>
 
@@ -770,14 +582,6 @@
 						<li>Robust</li>
 						<li>Selecting an appropriate assessment metric is essential to wrapper-based method.</li>
 						<li>Comprehensive assessment metric works better than non-comprehensive.</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Future research</h2>
-					<ul>
-						<li>Choices of different assessment metrics</li>
-						<li>Choices of various selection techniques</li>
 					</ul>
 				</section>
 
